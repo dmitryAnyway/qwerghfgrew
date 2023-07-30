@@ -11,6 +11,7 @@
 		682443252A76C88200467DD2 /* qwerghfgrew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6824431A2A76C88100467DD2 /* qwerghfgrew.framework */; };
 		6824432A2A76C88200467DD2 /* qwerghfgrewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682443292A76C88200467DD2 /* qwerghfgrewTests.swift */; };
 		6824432B2A76C88200467DD2 /* qwerghfgrew.h in Headers */ = {isa = PBXBuildFile; fileRef = 6824431D2A76C88100467DD2 /* qwerghfgrew.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		682443362A76C8AD00467DD2 /* MyPublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 682443352A76C8AD00467DD2 /* MyPublicHeader.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,8 @@
 		6824431E2A76C88100467DD2 /* qwerghfgrew.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = qwerghfgrew.docc; sourceTree = "<group>"; };
 		682443242A76C88200467DD2 /* qwerghfgrewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qwerghfgrewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		682443292A76C88200467DD2 /* qwerghfgrewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qwerghfgrewTests.swift; sourceTree = "<group>"; };
+		682443352A76C8AD00467DD2 /* MyPublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPublicHeader.h; sourceTree = "<group>"; };
+		682443372A76C8E900467DD2 /* BookCollector.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = BookCollector.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,7 @@
 		682443102A76C88100467DD2 = {
 			isa = PBXGroup;
 			children = (
+				682443372A76C8E900467DD2 /* BookCollector.podspec */,
 				6824431C2A76C88100467DD2 /* qwerghfgrew */,
 				682443282A76C88200467DD2 /* qwerghfgrewTests */,
 				6824431B2A76C88100467DD2 /* Products */,
@@ -72,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				6824431D2A76C88100467DD2 /* qwerghfgrew.h */,
+				682443342A76C89300467DD2 /* SomeFiles */,
 				6824431E2A76C88100467DD2 /* qwerghfgrew.docc */,
 			);
 			path = qwerghfgrew;
@@ -85,6 +90,14 @@
 			path = qwerghfgrewTests;
 			sourceTree = "<group>";
 		};
+		682443342A76C89300467DD2 /* SomeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				682443352A76C8AD00467DD2 /* MyPublicHeader.h */,
+			);
+			path = SomeFiles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -92,6 +105,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682443362A76C8AD00467DD2 /* MyPublicHeader.h in Headers */,
 				6824432B2A76C88200467DD2 /* qwerghfgrew.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
