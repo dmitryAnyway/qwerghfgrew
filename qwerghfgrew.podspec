@@ -9,6 +9,17 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ext.dzubarev' => 'ext.dzubarev@tinkoff.ru' }
   s.source           = { :git => 'https://github.com/dmitryAnyway/qwerghfgrew.git', :tag => s.version.to_s }
+  
+  s.source_files = 'qwerghfgrew/**/*'
+  
+  # s.resource_bundles = {
+  #   'qwerghfgrew' => ['qwerghfgrew/*.png']
+  # }
+
+  s.public_header_files = 'Pod/qwerghfgrew/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 
   s.ios.deployment_target = '15.0'
+  
 end
