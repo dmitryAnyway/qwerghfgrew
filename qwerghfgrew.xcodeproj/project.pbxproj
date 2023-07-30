@@ -56,6 +56,7 @@
 		682443102A76C88100467DD2 = {
 			isa = PBXGroup;
 			children = (
+				682443372A76C8E900467DD2 /* qwerghfgrew.podspec */,
 				682443382A76CA0A00467DD2 /* Podspec Metadata */,
 				6824431C2A76C88100467DD2 /* qwerghfgrew */,
 				682443282A76C88200467DD2 /* qwerghfgrewTests */,
@@ -101,7 +102,6 @@
 		682443382A76CA0A00467DD2 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				682443372A76C8E900467DD2 /* qwerghfgrew.podspec */,
 			);
 			path = "Podspec Metadata";
 			sourceTree = "<group>";
